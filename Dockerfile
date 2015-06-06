@@ -1,7 +1,6 @@
-FROM ruby:2.2
+FROM ruby:2.2.2-slim
 
-RUN gem install sinatra --no-ri --no-rdoc && \
-    mkdir /metadata
+RUN gem install sinatra --no-ri --no-rdoc
 
 WORKDIR /metadata
 VOLUME /metadata/public
