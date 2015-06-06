@@ -35,7 +35,7 @@ echo foobar > ${META_DIR}/latest/user-data
 ### docker run
 
 ```
-docker run -d --name=metadata -v /metadata/public:/metadata/public -p 4567:4567 metadata
+docker run -d --name=metadata -v /metadata/public:/metadata/public -p 4567:4567 uzyexe/metadata-server
 ```
 
 ### Get the Your Metadata
